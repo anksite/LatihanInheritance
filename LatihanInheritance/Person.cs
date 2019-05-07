@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace LatihanInheritance
 {
-    class Person
+    public class Person
     {
         public string Name { get; set; }
         public int Age { get; set; }
-
-        public Person() { }
 
         public Person(string Name, int Age) {
             this.Name = Name;

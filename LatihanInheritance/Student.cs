@@ -11,7 +11,7 @@ namespace LatihanInheritance
         public string StudentId { get; set; }
         public string Subject { get; set; }
 
-        public Student(string Name, int Age, string StudentId, string Subject)
+        public Student(string Name, int Age, string StudentId, string Subject):base(Name,Age)
         {
             this.Name = Name;
             this.Age = Age;
